@@ -269,7 +269,7 @@ variable "permissions_boundary" {
 
 variable "disk_type" {
   type        = string
-  default     = null
+  default     = "gp3"
   description = "If provided, will be used as volume type of created ebs disk on EC2 instances"
 }
 
